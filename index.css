@@ -12,8 +12,50 @@ body {
     top:20px;
 }
 
-#flyKnapper {
+#knapper button {
+    background-color: rgb(39, 39, 39);
+    padding:1rem;
+    border:rgb(240, 227, 45) solid 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+#flyKnapper{
     position: absolute;
     right:20px;
     top:20px;
+    
 }
+
+#flyKnapper button {
+    background-color: rgb(39, 39, 39);
+    padding:1rem;
+    border:rgb(240, 227, 45) solid 5px;
+    color: white;
+    font-size: 1rem;
+}
+#flyKnapper button:hover {
+    background-color: rgb(240, 227, 45);
+    padding:1rem;
+    border:rgb(39, 39, 39) solid 5px;
+    color: black;
+    font-size: 1rem;
+}
+
+#knapper button:hover {
+    background-color: rgb(240, 227, 45);
+    padding:1rem;
+    border:rgb(39, 39, 39) solid 5px;
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+
+/*#flyknapper:hover {
+    border-radius:5px;
+    border:rgb(2, 204, 2) solid;
+    box-shadow: 10px 10px 10px rgb(17, 17, 17);
+    background-color: rgb(2, 204, 2) ;
+}*/

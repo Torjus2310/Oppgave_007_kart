@@ -60,6 +60,7 @@ const addMarker = (fabrikk) => {
 
         <h2>${fabrikk.navn}</h2>
         <p>${fabrikk.tekst}</p>
+    
     `)
 
 
