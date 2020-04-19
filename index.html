@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="kartet"></div>
+
+    <div id="knapper">
+
+    <button data-mode="mapbox://styles/mapbox/dark-v10">Night Mode</button>
+    <button data-mode="mapbox://styles/mapbox/streets-v11">Day mode</button>
+    <button data-mode="mapbox://styles/mapbox/satellite-v9">Satellite mode</button>
+
+    </div>
+
+
+    <div id="flyKnapper">
+
+    <button
+          data-lng="10.288101",
+          data-lat="59.096220"
+    >Fly Til Hytta</button>
+    <button
+          data-lng="10.850616",
+          data-lat="59.877433"
+    >Fly Til bøler</button>
+
+   </div>
+    
+    
+    
+    
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <script src="index.js"></script>
+</body>
+</html>

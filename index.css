@@ -1,0 +1,19 @@
+body {
+    margin:0;
+}
+
+#kartet {
+    width:100vw;
+    height:100vh;
+}
+#knapper {
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+
+#flyKnapper {
+    position: absolute;
+    right:20px;
+    top:20px;
+}
